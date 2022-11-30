@@ -23,10 +23,10 @@
   color: rgba(255, 255, 255, 0.8);
 }
 .change-nav .nav .collapsible-nav-links:after {
-  content: url(./assets/arrow-down-white.svg);
+  content: url(../assets/arrow-down-white.svg);
 }
 .change-nav .nav .navActive:after {
-  content: url(./assets/arrow-up-white.svg);
+  content: url(../assets/arrow-up-white.svg);
 }
 .change-nav .nav .selected {
   color: #393939;
@@ -41,7 +41,7 @@
   width: 132px;
   height: 28px;
   margin-left: 1rem;
-  background-image: url(./assets/logo-mobile.svg);
+  background-image: url(../assets/logo-mobile.svg);
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -87,14 +87,14 @@
   display: block;
 }
 .nav .collapsible-nav-links:after {
-  content: url(./assets/icon-down.svg);
+  content: url(../assets/icon-down.svg);
   color: #393939;
   font-weight: 500;
   float: right;
   margin-left: 5px;
 }
 .nav .navActive:after {
-  content: url(./assets/icon-up.svg);
+  content: url(../assets/icon-up.svg);
 }
 .nav .dropdown-content {
   background: rgba(255, 255, 255, 0.8);
@@ -210,14 +210,14 @@
     text-transform: uppercase;
   }
   .nav .collapsible-nav-links:after {
-    content: url(./assets/arrow-down-white.svg);
+    content: url(../assets/arrow-down-white.svg);
     color: #393939;
     font-weight: 500;
     float: right;
     margin-left: 5px;
   }
   .nav .navActive:after {
-    content: url(./assets/arrow-up-white.svg);
+    content: url(../assets/arrow-up-white.svg);
   }
   .nav .dropdown-content {
     position: relative;
@@ -637,14 +637,14 @@
     font-weight: 600;
   }
   .collapsible:after {
-    content: url(./assets/icon-down.svg);
+    content: url(../assets/icon-down.svg);
     color: #393939;
     font-weight: bold;
     float: right;
     margin-left: 5px;
   }
   .aboutSectionActive:after {
-    content: url(./assets/icon-up.svg);
+    content: url(../assets/icon-up.svg);
   }
   .content-about {
     padding: 0 18px;
@@ -859,7 +859,7 @@
 }
 
 .join-start-small {
-  background: url(./assets/join-star-small.svg);
+  background: url(../assets/join-star-small.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1055,7 +1055,7 @@
 }
 
 .collapsible-rundown:after {
-  content: url(./assets/icon-down.svg);
+  content: url(../assets/icon-down.svg);
   color: #393939;
   font-weight: bold;
   float: right;
@@ -1063,7 +1063,7 @@
 }
 
 .rundownActive:after {
-  content: url(./assets/icon-up.svg);
+  content: url(../assets/icon-up.svg);
 }
 
 .content-rundown {
@@ -1107,14 +1107,14 @@
     font-size: 15px;
   }
   .collapsible-rundown:after {
-    content: url(./assets/icon-down.svg);
+    content: url(../assets/icon-down.svg);
     color: #393939;
     font-weight: bold;
     float: right;
     margin-left: 5px;
   }
   .rundownActive:after {
-    content: url(./assets/icon-up.svg);
+    content: url(../assets/icon-up.svg);
   }
   .text-rundown h6 {
     font-size: 15px;
@@ -1443,7 +1443,7 @@
 }
 
 .birthday-label:after {
-  content: url(./assets/icon-down.svg);
+  content: url(../assets/icon-down.svg);
   float: right;
   margin-left: 5px;
 }
@@ -1665,7 +1665,7 @@
   border-radius: 10px;
   outline: none;
   cursor: pointer;
-  background: url(./assets/file-uplod.svg);
+  background: url(../assets/file-uplod.svg);
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -1693,7 +1693,7 @@
   border-radius: 10px;
   outline: none;
   cursor: pointer;
-  background: url(./assets/file-uplod.svg);
+  background: url(../assets/file-uplod.svg);
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -2057,7 +2057,7 @@ body {
 .bg-overlay {
   width: 100%;
   height: 100%;
-  background-image: url(./assets/body-overlay.svg);
+  background-image: url(../assets/body-overlay.svg);
   background-repeat: no-repeat;
   background-size: 80%;
   overflow: hidden;
@@ -2075,12 +2075,12 @@ body {
 
 @media screen and (max-width: 1000px) {
   body {
-    background-image: url(./assets/mobile-bg.svg);
+    background-image: url(../assets/mobile-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .bg-overlay {
-    background-image: url(./assets/mobile-bg.svg);
+    background-image: url(../assets/mobile-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
