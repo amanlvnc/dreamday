@@ -143,7 +143,7 @@ function myShowSlides() {
   }
   slides[mySlideIndex - 1].style.display = "block";
   dots[mySlideIndex - 1].className += " activeDot";
-  setTimeout(myShowSlides, 2000); // Change image every 2 seconds
+  setTimeout(myShowSlides, 3000); // Change image every 3 seconds
 }
 
 // About section collapsible
@@ -218,7 +218,7 @@ function galeriShowSlides() {
   }
   slides[galeriSlideIndex - 1].style.display = "block";
   dots[galeriSlideIndex - 1].className += " galeriActiveDot";
-  setTimeout(galeriShowSlides, 2000); // Change image every 2 seconds
+  setTimeout(galeriShowSlides, 3000); // Change image every 3 seconds
 }
 
 // Rundown section collapsible
@@ -293,5 +293,5 @@ function prizesShowSlides() {
   }
   slides[prizesSlideIndex - 1].style.display = "block";
   dots[prizesSlideIndex - 1].className += " prizesActiveDot";
-  setTimeout(prizesShowSlides, 2000); // Change image every 2 seconds
+  setTimeout(prizesShowSlides, 3000); // Change image every 3 seconds
 }
