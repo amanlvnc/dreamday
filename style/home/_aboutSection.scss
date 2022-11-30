@@ -120,7 +120,7 @@
   }
 
   .collapsible:after {
-    content: url(/assets/icon-down.svg);
+    content: url(./assets/icon-down.svg);
     color: $secondaryColor;
     font-weight: bold;
     float: right;
@@ -128,7 +128,7 @@
   }
 
   .aboutSectionActive:after {
-    content: url(/assets/icon-up.svg);
+    content: url(./assets/icon-up.svg);
   }
 
   .content-about {

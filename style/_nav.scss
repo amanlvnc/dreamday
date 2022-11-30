@@ -20,11 +20,11 @@
     }
 
     .collapsible-nav-links:after {
-      content: url(/assets/arrow-down-white.svg);
+      content: url(./assets/arrow-down-white.svg);
     }
 
     .navActive:after {
-      content: url(/assets/arrow-up-white.svg);
+      content: url(./assets/arrow-up-white.svg);
     }
 
     .selected {
@@ -48,7 +48,7 @@
     width: 132px;
     height: 28px;
     margin-left: 1rem;
-    background-image: url(/assets/logo-mobile.svg);
+    background-image: url(./assets/logo-mobile.svg);
     background-repeat: no-repeat;
     background-size: auto;
   }
@@ -107,7 +107,7 @@
   }
 
   .collapsible-nav-links:after {
-    content: url(/assets/icon-down.svg);
+    content: url(./assets/icon-down.svg);
     color: $secondaryColor;
     font-weight: 500;
     float: right;
@@ -115,7 +115,7 @@
   }
 
   .navActive:after {
-    content: url(/assets/icon-up.svg);
+    content: url(./assets/icon-up.svg);
   }
 
   /*  Drop down  */
@@ -254,7 +254,7 @@
     }
 
     .collapsible-nav-links:after {
-      content: url(/assets/arrow-down-white.svg);
+      content: url(./assets/arrow-down-white.svg);
       color: $secondaryColor;
       font-weight: 500;
       float: right;
@@ -262,7 +262,7 @@
     }
 
     .navActive:after {
-      content: url(/assets/arrow-up-white.svg);
+      content: url(./assets/arrow-up-white.svg);
     }
 
     .dropdown-content {

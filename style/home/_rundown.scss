@@ -41,7 +41,7 @@
 }
 
 .collapsible-rundown:after {
-  content: url(/assets/icon-down.svg);
+  content: url(./assets/icon-down.svg);
   color: $secondaryColor;
   font-weight: bold;
   float: right;
@@ -49,7 +49,7 @@
 }
 
 .rundownActive:after {
-  content: url(/assets/icon-up.svg);
+  content: url(./assets/icon-up.svg);
 }
 
 .content-rundown {
@@ -101,7 +101,7 @@
   }
 
   .collapsible-rundown:after {
-    content: url(/assets/icon-down.svg);
+    content: url(./assets/icon-down.svg);
     color: $secondaryColor;
     font-weight: bold;
     float: right;
@@ -109,7 +109,7 @@
   }
 
   .rundownActive:after {
-    content: url(/assets/icon-up.svg);
+    content: url(./assets/icon-up.svg);
   }
 
   .text-rundown {
