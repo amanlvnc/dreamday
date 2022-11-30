@@ -82,7 +82,7 @@
   transition: all 0.3s linear;
 }
 .birthday-label:after {
-  content: url(/assets/icon-down.svg);
+  content: url(./assets/icon-down.svg);
   float: right;
   margin-left: 5px;
 }
@@ -310,7 +310,7 @@
   border-radius: 10px;
   outline: none;
   cursor: pointer;
-  background: url(/assets/file-uplod.svg);
+  background: url(./assets/file-uplod.svg);
   background-repeat: no-repeat;
   background-position: center;
 
@@ -340,7 +340,7 @@
   border-radius: 10px;
   outline: none;
   cursor: pointer;
-  background: url(/assets/file-uplod.svg);
+  background: url(./assets/file-uplod.svg);
   background-repeat: no-repeat;
   background-position: center;
 
