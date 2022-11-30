@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Dream Inspiring Women 2023 Submission</title>
+  </head>
+  <body>
+    <div class="bg-overlay">
+      <!-------------------------Start of Nav----------------------------------------->
+      <header>
+        <nav class="container nav">
+          <a href="index.html" class="white-logo"
+            ><img class="logo-desktop" src="assets/logo.svg" alt=""
+          /></a>
+
+          <div>
+            <ul class="nav-item">
+              <a href="index.html"
+                ><img class="logo-mobile" src="assets/logo-mobile.svg" alt=""
+              /></a>
+              <li class="nav-links">
+                <a href="index.html" class="selected">Home</a>
+              </li>
+              <li class="nav-links dropdown">
+                <a href="index.html#competition" class="collapsible-nav-links"
+                  >Competition
+                </a>
+                <ul class="dropdown-content">
+                  <li class="nav-links">
+                    <a href="index.html#join">How to</a>
+                  </li>
+                  <li class="nav-links">
+                    <a href="index.html#rundown">Rundown</a>
+                  </li>
+                  <li class="nav-links">
+                    <a href="index.html#timeline">Timeline</a>
+                  </li>
+                  <li class="nav-links">
+                    <a href="index.html#prize">Prize</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-links"><a href="#">Events</a></li>
+
+              <li class="nav-links dropdown">
+                <a href="#" class="collapsible-nav-links">Gallery </a>
+                <ul class="dropdown-content">
+                  <li class="nav-links"><a href="#">How to</a></li>
+                  <li class="nav-links"><a href="#">Rundown</a></li>
+                  <li class="nav-links"><a href="#">Timeline</a></li>
+                  <li class="nav-links"><a href="#">Prize</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-links dropdown">
+                <a href="#" class="collapsible-nav-links">Finalist </a>
+                <ul class="dropdown-content">
+                  <li class="nav-links"><a href="#">How to</a></li>
+                  <li class="nav-links"><a href="#">Rundown</a></li>
+                  <li class="nav-links"><a href="#">Timeline</a></li>
+                  <li class="nav-links"><a href="#">Prize</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-links"><a href="#">News</a></li>
+            </ul>
+            <div class="burger-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="container">
+        <!-------------------------Start of form submission---------------------------------------->
+        <h1 class="title">Dream Inspiring Women 2023 Submission</h1>
+        <form action="" class="container text-center" style="max-width: 800px">
+          <div class="name-holder">
+            <input
+              class="name-input"
+              type="text"
+              name="fullName"
+              id="fullName"
+              required
+            />
+            <label class="name-label" for="fullName">Nama Lengkap</label>
+          </div>
+
+          <div class="date-holder">
+            <input class="birthday-input" id="birthday"" type="text"
+            name="birthday" onfocus="(this.type = 'date')"
+            onblur="if(!this.value) this.type='text'" required />
+            <label class="birthday-label" for="birthday">Tanggal Lahir</label>
+          </div>
+
+          <div class="birthplace-holder">
+            <input
+              class="birthplace-input"
+              type="address"
+              name="birthplace"
+              id="birthplace"
+              required
+            />
+            <label class="birthplace-label" for="birthplace"
+              >Tempat Lahir</label
+            >
+          </div>
+
+          <div class="email-holder">
+            <input
+              class="email-input"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+            <label class="email-label" for="email">Email</label>
+          </div>
+
+          <div class="address-holder">
+            <input
+              class="address-input"
+              type="address"
+              name="address"
+              id="address"
+              required
+            />
+            <label class="address-label" for="address">Kota Domisili</label>
+          </div>
+
+          <div class="number-holder">
+            <input
+              class="number-input"
+              type="number"
+              name="number"
+              id="number"
+              required
+            />
+            <label class="number-label" for="number"
+              >No handphone/WhatsApp</label
+            >
+          </div>
+
+          <div class="cecilia-holder">
+            <input
+              class="cecilia-input"
+              type="file"
+              name="fotoCecilia"
+              id="fotoCecilia"
+              required
+            />
+            <label class="cecilia-label" for="fotoCecilia"
+              >foto-cecilia-upload</label
+            >
+          </div>
+
+          <div class="closeup-holder">
+            <input
+              class="closeup-input"
+              type="file"
+              name="fotoCloseup"
+              id="fotoCloseup"
+              required
+            />
+            <label class="closeup-label" for="fotoCloseup"
+              >Upload foto close up</label
+            >
+          </div>
+
+          <div class="facebook-holder">
+            <input
+              class="facebook-input"
+              type="url"
+              name="facebook"
+              id="facebook"
+            />
+            <label class="facebook-label" for="facebook"
+              >Facebook (Optional)</label
+            >
+          </div>
+
+          <div class="instagram-holder">
+            <input
+              class="instagram-input"
+              type="url"
+              name="instagram"
+              id="instagram"
+            />
+            <label class="instagram-label" for="instagram"
+              >Instagram (Optional)</label
+            >
+          </div>
+
+          <div class="twitter-holder">
+            <input
+              class="twitter-input"
+              type="url"
+              name="twitter"
+              id="twitter"
+            />
+            <label class="twitter-label" for="twitter"
+              >Twitter (Optional)</label
+            >
+          </div>
+
+          <div class="tiktok-holder">
+            <input class="tiktok-input" type="url" name="tiktok" id="tiktok" />
+            <label class="tiktok-label" for="tiktok">TikTok (Optional)</label>
+          </div>
+          <input type="button" value="submit" class="form-btn" />
+        </form>
+      </main>
+      <!-------------------------Start of footer section----------------------------------------->
+      <footer class="container footer text-center">
+        <img src="/assets/logo.svg" alt="Dream Day Logo" />
+        <p>© 2022 Dreamday - All Rights Reserved</p>
+      </footer>
+    </div>
+
+    <!--JS app-->
+    <script src="app/app.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,563 @@
+// full name input
+
+.name-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.name-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.name-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.name-input:focus + .name-label,
+.name-input:valid + .name-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+// Birthday input
+.date-holder {
+  position: relative;
+  margin-bottom: 3rem;
+  text-align: left !important;
+}
+
+.birthday-input {
+  width: 286px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.birthday-label {
+  width: 250px;
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+.birthday-label:after {
+  content: url(/assets/icon-down.svg);
+  float: right;
+  margin-left: 5px;
+}
+
+.birthday-input:focus + .birthday-label,
+.birthday-input:valid + .birthday-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.birthday-input:focus + .birthday-label {
+  width: 110px;
+}
+
+.birthday-input:focus + .birthday-label:after {
+  content: none;
+}
+
+// full name input
+
+.birthplace-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.birthplace-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.birthplace-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.birthplace-input:focus + .birthplace-label,
+.birthplace-input:valid + .birthplace-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+// Email Address input
+.email-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.email-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.email-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.email-input:focus + .email-label,
+.email-input:valid + .email-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+// Address input (kota domisili)
+.address-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.address-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.address-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.address-input:focus + .address-label,
+.address-input:valid + .address-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+// number input
+.number-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.number-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.number-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.number-input:focus + .number-label,
+.number-input:valid + .number-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+// Photo cecilia input
+.cecilia-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.cecilia-input {
+  display: none;
+}
+
+.cecilia-label {
+  width: 100%;
+  min-width: 250px;
+  height: 139px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  background: url(/assets/file-uplod.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+// Photo closeup input
+.closeup-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.closeup-input {
+  display: none;
+}
+
+.closeup-label {
+  width: 100%;
+  min-width: 250px;
+  height: 139px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  background: url(/assets/file-uplod.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+// facebook input
+
+.facebook-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.facebook-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.facebook-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.facebook-input:focus + .facebook-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+// instagram input
+
+.instagram-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.instagram-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.instagram-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.instagram-input:focus + .instagram-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+// twitter input
+
+.twitter-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.twitter-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.twitter-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.twitter-input:focus + .twitter-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+// tiktok input
+
+.tiktok-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.tiktok-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.tiktok-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.tiktok-input:focus + .tiktok-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.form-btn {
+  width: 219px;
+  height: 44px;
+  background: $primaryColor;
+  color: $lightColor;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+
+  &:hover {
+    background-color: #ffb5d8;
+    color: $secondaryColor;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .form-btn {
+    width: 181px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}

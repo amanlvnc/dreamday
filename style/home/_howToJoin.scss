@@ -1,0 +1,152 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  padding-left: 0;
+}
+
+.tab-item {
+  list-style-type: none;
+}
+
+.tab-link {
+  width: max-content;
+  height: 63px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: $secondaryColor;
+  background-color: transparent;
+  border: 1px solid #2d2f33;
+  border-radius: 100px;
+}
+
+.active {
+  background: #ff75a0;
+  border: 1px solid #ff75a0;
+  border-radius: 100px;
+  color: $lightColor;
+}
+
+.my-tab-pane {
+  background-color: transparent !important;
+  color: $secondaryColor !important;
+  border: none !important;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.step-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.step-card {
+  border: 1px solid #2d2f33;
+  border-radius: 20px;
+  position: relative;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.step-card-icon {
+  position: absolute;
+  left: -35px;
+  top: -35px;
+}
+
+.step-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: $secondaryColor;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: $secondaryColor;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  button {
+    width: 226px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: $lightColor;
+    background-color: $primaryColor;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+
+    &:hover {
+      color: $secondaryColor;
+      background-color: #ffb5d8;
+    }
+  }
+}
+
+.join-start-small {
+  background: url(/assets/join-star-small.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.join-start-big {
+}
+
+@media screen and (max-width: 1000px) {
+  .tabs {
+    overflow-x: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .tab-link {
+    width: max-content;
+    height: 42px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .step-cards {
+    flex-direction: column;
+  }
+
+  .step-card-icon {
+    position: absolute;
+    left: 41%;
+    top: -50px;
+  }
+
+  .step-card-text {
+    margin-top: 1rem;
+  }
+}

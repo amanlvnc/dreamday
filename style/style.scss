@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+$primaryColor: #ff76aa;
+$secondaryColor: #393939;
+$lightColor: rgba(255, 255, 255, 0.8);
+
+// Homepage scss styles
+// @import "./navigation";
+@import "./nav";
+@import "./button";
+@import "./home/heroSection";
+@import "./home/aboutSection";
+@import "./home/competition";
+@import "./home/howToJoin";
+@import "./home/galeriFinalist";
+@import "./home/rundown";
+@import "./home/prizes";
+@import "./home/news";
+@import "./home/footer";
+
+// Women Form Submission page styles
+@import "./womenForm/womenFormSubmission";
+
+// Kids Muslim Submission page styles
+@import "./kidsForm/kidsMuslimForm.scss";
+
+// Terms and conditions page styles
+@import "./termsAndConditions/termsAndConditions";
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+
+  background: linear-gradient(
+    90deg,
+    #88eed9 1.25%,
+    #fffdf5 51.23%,
+    #ff75a0 100%
+  );
+}
+
+.bg-overlay {
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/body-overlay.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  color: $primaryColor;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-image: url(/assets/mobile-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-overlay {
+    background-image: url(/assets/mobile-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+}

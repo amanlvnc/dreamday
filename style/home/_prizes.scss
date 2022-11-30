@@ -1,0 +1,118 @@
+.prizes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.prizes-img {
+  width: auto;
+  height: auto;
+  min-width: 462px;
+  min-height: 489px;
+}
+
+.prizes-content {
+  h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 2rem;
+  }
+}
+
+.texts-prizes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.text-prizes {
+  h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 4px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+.prizesDots {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.prizeDot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background: #ffb5d8;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.prizesActiveDot,
+.prizeDot:hover {
+  background-color: $primaryColor;
+  width: 30px;
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .prizes {
+    flex-direction: column;
+  }
+
+  .prizes-img {
+    min-width: 330px;
+    min-height: 314px;
+  }
+
+  .prizes-content {
+    margin-left: 1.5rem;
+    h5 {
+      font-weight: 700;
+      font-size: 15px;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+  }
+
+  .text-prizes {
+    h6 {
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  .prizesDots {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .prizeDot {
+    width: 5px;
+    height: 5px;
+  }
+
+  .prizesActiveDot,
+  .prizeDot:hover {
+    width: 14.29px;
+    height: 5px;
+  }
+}

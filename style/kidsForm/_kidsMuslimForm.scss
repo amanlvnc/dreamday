@@ -1,0 +1,125 @@
+// Check the Women form submission for
+// change the design of input that ins't here.
+
+// Gender input
+
+.gender-holder {
+  margin-bottom: 3rem;
+
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+.gender-radio {
+  text-align: left;
+}
+
+.gender-input {
+  text-align: left;
+  width: 17px;
+  height: 17px;
+  accent-color: $primaryColor;
+}
+
+.gender-label {
+  margin-right: 10px;
+}
+
+// Parent name input
+.parent-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.parent-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.parent-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.parent-input:focus + .parent-label,
+.parent-input:valid + .parent-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+// origin-address name input
+.origin-address-holder {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.origin-address-input {
+  width: 100%;
+  min-width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s linear;
+}
+
+.origin-address-label {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #393939;
+  cursor: text;
+  transition: all 0.3s linear;
+}
+
+.origin-address-input:focus + .origin-address-label,
+.origin-address-input:valid + .origin-address-label {
+  font-weight: 500;
+  font-size: 14px;
+  top: -13px;
+  padding: 3px 5px;
+  background-color: rgba(255, 251, 236, 1);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1000px) {
+}

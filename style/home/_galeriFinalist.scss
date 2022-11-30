@@ -1,0 +1,135 @@
+.galeri-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.galeri-card {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 328px;
+  height: 408px;
+}
+
+.galeri-card-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  img {
+    width: 54px;
+    height: 52px;
+    margin: 1rem;
+  }
+
+  .galeri-card-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    h6 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: $secondaryColor;
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: $secondaryColor;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  .galeri-user-video {
+    cursor: pointer;
+  }
+}
+
+.galeriDots {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.galeriDot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background: #ffb5d8;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.galeriActiveDot,
+.galeriDot:hover {
+  background-color: $primaryColor;
+  width: 30px;
+  border-radius: 100px;
+}
+
+.galeri-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .galeri-cards {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .galeri-card {
+    width: 226px;
+    height: 282px;
+    margin-right: 1.5rem;
+  }
+
+  .galeri-card-title {
+    h6 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  .galeri-user-video {
+    width: 226px;
+    height: 223px;
+  }
+
+  .galeriDots {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .galeriDot {
+    width: 5px;
+    height: 5px;
+  }
+
+  .galeriActiveDot,
+  .galeriDot:hover {
+    width: 14.29px;
+    height: 5px;
+  }
+
+  .galeri-btn {
+    margin-top: 1.5rem;
+  }
+}

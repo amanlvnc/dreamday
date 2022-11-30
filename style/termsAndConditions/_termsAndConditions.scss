@@ -1,0 +1,43 @@
+.title-terms-conditions {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  color: $secondaryColor;
+  margin-bottom: 2rem;
+  margin-top: 6rem;
+}
+
+.terms-conditions {
+  ul {
+    li {
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: $secondaryColor;
+
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .title-terms-conditions {
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 4rem;
+  }
+
+  .terms-conditions {
+    ul {
+      li {
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

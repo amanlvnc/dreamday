@@ -1,0 +1,100 @@
+/*  Slideshow button */
+.custom-btn {
+  background-color: $primaryColor;
+  color: $lightColor;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  border-radius: 25px;
+  width: 169px;
+  height: 50px;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #ffb5d8;
+  color: $secondaryColor;
+}
+
+@media screen and (max-width: 1000px) {
+  .custom-btn {
+    padding-top: 6px;
+    width: 139px;
+    height: 38px;
+    font-weight: 700;
+  }
+}
+
+/*  competition button*/
+
+.custom-btn-primary {
+  background-color: $primaryColor;
+  color: $lightColor;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  border-radius: 25px;
+  width: 139px;
+  height: 41px;
+  padding-top: 9px;
+  font-weight: 700;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-right: 1.5rem;
+}
+
+.custom-btn-primary:hover {
+  background-color: #ffb5d8;
+  color: $secondaryColor;
+}
+
+@media screen and (max-width: 1000px) {
+  .custom-btn-primary {
+    width: 181px;
+    height: 37px;
+    padding-top: 8px;
+    margin-right: 0;
+  }
+}
+
+.custom-btn-secondary {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 207px;
+  height: 41px;
+  padding-top: 9px;
+  border: 1px solid #2d2f33;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: $secondaryColor;
+  border-radius: 100px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.custom-btn-secondary:hover {
+  background-color: #ffb5d8;
+  border: 1px solid #ffb5d8;
+  color: $secondaryColor;
+  border: $primaryColor;
+  outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .custom-btn-secondary {
+    width: 183px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 8px;
+  }
+}

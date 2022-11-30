@@ -1,0 +1,162 @@
+.col-postion {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.hero-content {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 10px;
+
+  .inspiring-women {
+    margin-bottom: 15px;
+    width: 332px;
+    height: 193px;
+  }
+
+  .hero-text {
+    max-width: 363px;
+  }
+
+  .kokas-logo {
+    margin-bottom: 15px;
+  }
+
+  .hero-date {
+    padding-left: 5px;
+    font-weight: 600;
+  }
+}
+
+.hero-image {
+  margin-top: 2rem;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 50px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+/* Position the "pre button" to the left */
+.prev {
+  left: 3%;
+  color: $primaryColor;
+}
+
+/* Position the "next button" to the right */
+.next {
+  color: $secondaryColor;
+  right: 3%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #ffb5d8;
+  border-radius: 100px;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background: #ffb5d8;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activeDot,
+.dot:hover {
+  background-color: $primaryColor;
+  width: 30px;
+  border-radius: 100px;
+}
+
+/* Fading animation */
+.fadeAnimation {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fadeAnimation {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*  Mobile view */
+@media screen and (max-width: 1000px) {
+  .col-postion {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    min-height: 288px !important;
+    margin: 0px auto;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-content {
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.5rem;
+    row-gap: 0px;
+
+    .inspiring-women {
+      width: 168px;
+      height: 98px;
+      z-index: 99;
+      margin-bottom: 0px;
+    }
+
+    .hero-text {
+      display: none;
+    }
+  }
+
+  .prev,
+  .next {
+    display: none;
+  }
+
+  .dots {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .dot {
+    width: 5px;
+    height: 5px;
+  }
+
+  .activeDot,
+  .dot:hover {
+    width: 14.29px;
+    height: 5px;
+  }
+}
